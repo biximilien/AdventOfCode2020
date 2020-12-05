@@ -1,0 +1,17 @@
+module Day1
+  class ExpenseReport
+    def initialize(expenses = [])
+      @expenses = expenses
+    end
+
+    def find_sum_of_two(target)
+      for i in @expenses do
+        expenses_without_i = @expenses - [i]
+        for j in expenses_without_i do
+          return [i,j] if i + j == target
+        end
+      end
+      return nil
+    end
+  end
+end
