@@ -1,2 +1,3 @@
-# AdventOfCode2020
-My solutions for the AdventOfCode2020 challenges.
+# Advent of Code 2020
+My solutions for the Advent of Code 2020 challenges.
+[https://adventofcode.com]

@@ -3,7 +3,7 @@
 require './lib/day1/expense_report'
 
 expenses = []
-File.open('./bin/puzzle_input.txt').each do |line|
+File.open('./data/puzzle_input_day1.txt').each do |line|
   expenses << line.to_i
 end
 expense_report = Day1::ExpenseReport.new(expenses)
